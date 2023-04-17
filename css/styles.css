@@ -1,0 +1,281 @@
+/* ===========VARIABLESS============= */
+:root 
+{
+--main-font: 'Roboto', sans-serif;
+--secondary-font: 'Raleway', sans-serif;
+--primary-background: #FFFFFF;
+--secondary-background: #2E2F42;
+--primary-text-color: #2E2F42;
+--accent-color: #4D5AE5;
+--secondary-text-color: #434455;
+}
+
+body
+{
+font-family: var(--main-font);
+font-size: 14px;
+color: var(--secondary-text-color);
+background-color: var(--primary-background);
+margin: 0;
+}
+
+/* ===========GENERAL============= */
+
+button {cursor: pointer;}
+
+.link 
+{
+text-decoration: none;
+}
+
+.list
+{
+    list-style-type: none;
+    font-style: normal;
+}
+
+.contact
+{
+    font-style: normal;
+}
+/* =============HEADER-LOGO==================== */
+
+.logo-accent
+{
+color: var(--primary-text-color);
+text-transform: uppercase;
+} 
+
+.logo-main
+{
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--accent-color);
+text-decoration: none
+}
+
+.nav-item:hover,
+.nav-item:focus 
+{
+color: #404bbf;   
+}
+
+.contact
+{
+font-style: normal;
+list-style: none;
+}
+
+.nav-item 
+{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--primary-text-color);
+text-decoration: none;
+list-style: none;
+}
+
+.contact-item:hover,
+.contact-item:focus 
+{
+color: #404bbf ;   
+}
+
+.contact-item
+{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--secondary-text-color);
+font-style: normal;
+text-decoration: none;
+list-style: none;
+}
+
+/* =================HERO (section 1)=================== */
+.hero 
+{
+background-color: var(--secondary-background);
+}
+
+.hero-main 
+{
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+
+.hero-button
+{
+font-family: Roboto, sans-serif; 
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+align-items: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+background-color: var(--accent-color);
+}
+
+.hero-button:hover
+{
+background-color: #404BBF;
+}
+
+.hero-button:focus 
+{
+background-color: #404BBF;
+}
+
+/* ==============Principles (section 2)=============== */
+
+.principles-list
+{
+list-style-type:  none;
+}
+.menu-name
+{    
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--primary-text-color); 
+}
+
+.item-descr
+{    
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--secondary-text-color);
+}
+
+/* ============GALLERY (section 3)================= */
+.gallery
+{      
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--primary-text-color);
+}
+
+.gallery-list-item
+{
+list-style-type: none; 
+}
+
+/* ===============OUR TEAM (section 4)================ */
+.team {list-style-type: none;}
+
+.team-list
+{      
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--primary-text-color);
+}
+
+.team-card
+{
+background-color: #FFFFFF;
+}
+
+.team
+{
+background-color: #F4F4FD;
+}
+
+/* ===============FOOTER============= */
+
+.logo-footer 
+{
+font-family: Raleway, sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--accent-color);
+text-decoration: none;
+}
+
+.logo-footer-accent
+{
+color: #F4F4FD;
+text-transform: uppercase;
+}
+
+.footer 
+{
+    background-color: var(--secondary-background);
+}
+
+.footer-descr
+{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #F4F4FD;
+}
+
+/* ================Portfolio============ */
+
+.portfolio-menu
+{
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: var(--accent-color);
+background-color: #F4F4FD; 
+}
+
+.portfolio-menu:focus,
+.portfolio-menu:hover 
+{
+background-color: #404BBF;
+color: #FFFFFF;
+}
+
+.portfolio-name 
+{  
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;   
+letter-spacing: 0.02em;
+color: #2E2F42;
+color: var(--primary-text-color);
+}
+
+.portfolio-descr 
+{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--secondary-text-color);    
+}
+
+.list
+{
+list-style-type: none;
+}
