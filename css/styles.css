@@ -267,7 +267,9 @@ text-transform: uppercase;
 
 .footer 
 {
-    background-color: var(--secondary-background);
+background-color: var(--secondary-background);
+width: 1440px;
+height: 312px;
 }
 
 .footer-descr
@@ -277,6 +279,14 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #F4F4FD;
 }
+
+.section-footer
+{
+margin-top: 100px;
+margin-bottom: 100px;
+margin-right: 708px;
+}
+
 
 /* ================Portfolio============ */
 
@@ -316,10 +326,7 @@ color: var(--primary-text-color);
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--secondary-text-color);    
+color: var(--secondary-text-color);
+
 }
 
-.list
-{
-list-style-type: none;
-}
