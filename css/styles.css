@@ -257,12 +257,15 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--accent-color);
 text-decoration: none;
+margin-top: 100px;
+
 }
 
 .logo-footer-accent
 {
 color: #F4F4FD;
 text-transform: uppercase;
+
 }
 
 .footer 
@@ -278,14 +281,11 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #F4F4FD;
+
+margin-top: 14px;
+margin-right: 864px;
 }
 
-.section-footer
-{
-margin-top: 100px;
-margin-bottom: 100px;
-margin-right: 708px;
-}
 
 
 /* ================Portfolio============ */
