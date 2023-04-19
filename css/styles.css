@@ -339,6 +339,18 @@ margin-right: 864px;
 
 
 /* ================Portfolio============ */
+.portfolio
+{
+display: flex;
+justify-content: center;
+}
+
+.flex-container
+{
+display: flex;
+flex-wrap:wrap;
+
+}
 
 .portfolio-menu
 {
@@ -350,8 +362,12 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
 color: var(--accent-color);
-background-color: #F4F4FD; 
+background-color: #F4F4FD;
+margin-right: 24px; 
 }
+
+.portfolio-menu:not(:last-child)
+{margin-left: 0px;}
 
 .portfolio-menu:focus,
 .portfolio-menu:hover 
