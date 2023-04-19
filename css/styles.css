@@ -362,7 +362,7 @@ flex-wrap:wrap;
 margin-right: 24px;
 }
 
-.portfolio-item: :nth-child(3n)
+.portfolio-item:nth-child(3n)
 {
 margin-right: 0;
 }
