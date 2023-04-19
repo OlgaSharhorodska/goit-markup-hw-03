@@ -38,7 +38,7 @@ padding: 0;
 
 img
 {
-    display: block;
+display: block;
 }
 
 body
@@ -345,17 +345,26 @@ margin-right: 864px;
 
 
 /* ================Portfolio============ */
-.portfolio
-{
-display: flex;
-justify-content: center;
-}
+
 
 .flex-container
 {
+width: 1158px;
+padding-left: 15px;
+padding-right: 15px;
+
 display: flex;
 flex-wrap:wrap;
+}
 
+.portfolio-item
+{
+margin-right: 24px;
+}
+
+.portfolio-item: :nth-child(3n)
+{
+margin-right: 0;
 }
 
 .portfolio-menu
