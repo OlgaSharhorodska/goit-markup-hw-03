@@ -60,15 +60,15 @@ text-decoration: none;
 
 .list
 {
-    list-style-type: none;
-    font-style: normal;
-    padding: 0;
-    margin: 0;
+list-style-type: none;
+font-style: normal;
+padding: 0;
+margin: 0;
 }
 
 .contact
 {
-    font-style: normal;
+font-style: normal;
 }
 
 /* =============HEADER-LOGO==================== */
@@ -93,6 +93,10 @@ margin-right: 76px;
 
 }
 
+.menu-navigation
+{
+height: 72px;
+}
 
 .nav
 {
@@ -114,8 +118,7 @@ display: flex;
 .contact-list
 {
 display: flex;
-
-margin-left: 0;
+justify-content: flex-end;
 }
 
 .nav-item:hover,
@@ -140,6 +143,7 @@ color: var(--primary-text-color);
 text-decoration: none;
 list-style: none;
 margin-right: 40px;
+
 }
 
 .nav-item:not(:last-child)
@@ -237,26 +241,38 @@ background-color: #404BBF;
 {
 display: flex;
 justify-content: space-around;
-
 }
 
-.menu-name
+.principles-card
+{
+margin-right: 24px;
+}
+
+.principles-card:last-child
+{
+margin-right: 0;
+}
+
+.principles-menu-name
 {    
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--primary-text-color); 
-text-align: center;
+
+margin-top: 120px;
+margin-bottom: 8px;
 }
 
-.item-descr
+.principles-item-descr
 {    
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--secondary-text-color);
-text-align: center;
+
+margin-bottom: 120px;
 }
 
 /* ============GALLERY (section 3)================= */
@@ -269,15 +285,53 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--primary-text-color);
+
+margin-bottom: 72px;
 }
 
 .gallery-list-item
 {
 list-style-type: none; 
+margin-bottom: 120px;
+}
+
+.menu-name
+{    
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--primary-text-color); 
+text-align: center;
+
+margin-top: 32px;
+margin-bottom: 8px;
+}
+
+.item-descr
+{    
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--secondary-text-color);
+
+text-align: center;
+
+margin-bottom: 32px;
 }
 
 /* ===============OUR TEAM (section 4)================ */
-.team {list-style-type: none;}
+.team {
+list-style-type: none;
+width: 1440;
+height: 732;
+background-color: #F4F4FD;
+}
+
+.team-card
+{
+margin-bottom: 120px;
+}
 
 .team-list
 {      
@@ -288,6 +342,9 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--primary-text-color);
+padding-top: 120px;
+margin-bottom: 72px;
+
 }
 
 .team-card
@@ -295,10 +352,6 @@ color: var(--primary-text-color);
 background-color: #FFFFFF;
 }
 
-.team
-{
-background-color: #F4F4FD;
-}
 
 /* ===============FOOTER============= */
 
@@ -389,7 +442,7 @@ background-color: #F4F4FD;
 margin-right: 24px; 
 }
 
-.portfolio-menu:not(:last-child)
+.portfolio-menu:last-child
 {margin-left: 0px;}
 
 .portfolio-menu:focus,
