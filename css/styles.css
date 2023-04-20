@@ -367,6 +367,9 @@ color: var(--accent-color);
 text-decoration: none;
 margin-top: 100px;
 
+display: inline-block;
+margin-bottom: 16px;
+
 }
 
 .logo-footer-accent
