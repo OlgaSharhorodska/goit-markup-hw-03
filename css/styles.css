@@ -107,6 +107,12 @@ height: 72px;
 {
 display: flex;
 direction: row;
+margin-right: 40px;
+}
+
+.nav:last-child
+{
+margin-right: 0px;
 }
 
 .site-header
@@ -126,6 +132,7 @@ align-items: center;
 {
 display: flex;
 justify-content: flex-end;
+margin-right: 0;
 }
 
 .nav-item:hover,
@@ -139,6 +146,7 @@ color: #404bbf;
 font-style: normal;
 list-style: none;
 display: flex;
+
 }
 
 .nav-item 
@@ -152,15 +160,6 @@ text-decoration: none;
 list-style: none;
 }
 
-.nav
-{
-margin-right: 24px;
-}
-
-.nav:last-child
-{
-margin-right: 0px;
-}
 
 .contact-item:hover,
 .contact-item:focus 
