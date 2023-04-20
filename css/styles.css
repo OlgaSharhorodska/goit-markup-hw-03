@@ -150,12 +150,17 @@ letter-spacing: 0.02em;
 color: var(--primary-text-color);
 text-decoration: none;
 list-style: none;
-margin-right: 40px;
-
 }
 
-.nav-item:last-child
-{margin-right: 0px;}
+.nav
+{
+margin-right: 40px;
+}
+
+.nav:last-child
+{
+margin-right: 0px;
+}
 
 .contact-item:hover,
 .contact-item:focus 
@@ -172,10 +177,14 @@ color: var(--secondary-text-color);
 font-style: normal;
 text-decoration: none;
 list-style: none;
-margin-right: 40px;
 }
 
-.contact-item:last-child
+.contact-card
+{
+margin-right: 24px;
+}
+
+.contact-card:last-child
 {margin-right: 0px;}
 
 /* =================HERO (section 1)=================== */
