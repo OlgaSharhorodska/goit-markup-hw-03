@@ -154,7 +154,7 @@ list-style: none;
 
 .nav
 {
-margin-right: 40px;
+margin-right: 24px;
 }
 
 .nav:last-child
@@ -181,7 +181,7 @@ list-style: none;
 
 .contact-card
 {
-margin-right: 24px;
+margin-right: 40px;
 }
 
 .contact-card:last-child
