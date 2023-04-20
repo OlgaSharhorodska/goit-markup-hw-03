@@ -177,6 +177,9 @@ text-align: center;
 width: 1440px;
 height: 600px;
 max-width: 496px; 
+
+padding-top: 188px;
+padding-bottom: 188px;
 }
 
 .main{
@@ -196,6 +199,7 @@ color: #FFFFFF;
 
 margin-left: 316px;
 margin-right: 316px;
+max-width: 496px; 
 }
 
 button
@@ -248,6 +252,10 @@ display: flex;
 justify-content: space-around;
 }
 
+.principles
+{
+    padding: 120px 0;
+}
 .principles-card
 {
 margin-right: 24px;
