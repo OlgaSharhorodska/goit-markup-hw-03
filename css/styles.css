@@ -471,8 +471,10 @@ margin-bottom: 120px;
 
 .portfolio-item
 {
+width: 360px;
 margin-right: 24px;
 outline: 1px solid #E7E9FC;
+margin-bottom: 48px;
 }
 
 .portfolio-item:nth-child(3n)
