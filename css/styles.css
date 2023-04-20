@@ -467,12 +467,18 @@ margin-right: 864px;
 
 
 /* ================Portfolio============ */
+.portfolio-page
+{
+padding: 96px 0 120px;
+}
+
 .portfolio
 {
 display: flex;
 justify-content: center;
 margin-top: 96px;
 margin-bottom: 72px;
+gap: 24px;
 
 }
 
@@ -518,11 +524,11 @@ text-align: center;
 letter-spacing: 0.04em;
 color: var(--accent-color);
 background-color: #F4F4FD;
-margin-right: 24px;
 
 border: 1px solid #E7E9FC;
 border-radius: 4px;
-
+padding: 12px 24px;
+margin-right: 24px;
 }
 
 .portfolio-menu:last-child
@@ -533,6 +539,7 @@ border-radius: 4px;
 {
 background-color: #404BBF;
 color: #FFFFFF;
+border: 1px solid transparent;
 }
 
 .portfolio-name 
