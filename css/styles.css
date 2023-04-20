@@ -108,7 +108,6 @@ height: 72px;
 display: flex;
 direction: row;
 margin-right: 40px;
-padding: 24px 0;
 }
 
 .nav:last-child
@@ -159,6 +158,8 @@ letter-spacing: 0.02em;
 color: var(--primary-text-color);
 text-decoration: none;
 list-style: none;
+
+padding: 24px 0;
 }
 
 
