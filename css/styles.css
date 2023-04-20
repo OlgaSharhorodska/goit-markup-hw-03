@@ -108,6 +108,7 @@ height: 72px;
 display: flex;
 direction: row;
 margin-right: 40px;
+padding: 24px 0;
 }
 
 .nav:last-child
