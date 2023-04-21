@@ -485,6 +485,8 @@ gap: 24px;
 .flex-container
 {
 width: 1158px;
+padding-right: 15px;
+padding-left: 15px;
 
 display: flex;
 flex-wrap:wrap;
@@ -495,7 +497,7 @@ row-gap: 48px;
 
 .portfolio-item
 {
-width: 360px;
+
 width: calc((100%-48px)/3);
 }
 
