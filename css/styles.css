@@ -485,21 +485,18 @@ gap: 24px;
 .flex-container
 {
 width: 1158px;
-padding-left: 15px;
-padding-right: 15px;
 
 display: flex;
 flex-wrap:wrap;
 margin-bottom: 120px;
 column-gap: 24px;
-row-gap: 48px;
+
 }
 
 .portfolio-item
 {
 width: 360px;
-outline: 1px solid #E7E9FC;
-width: calc((100%-48px) / 3);
+width: calc((100%-48px)/3);
 }
 
 .portfolio-item:nth-child(3n)
