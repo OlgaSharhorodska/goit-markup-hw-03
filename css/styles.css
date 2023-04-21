@@ -199,17 +199,10 @@ background-color: var(--secondary-background);
 text-align: center;
 width: 1440px;
 height: 600px;
-max-width: 496px; 
 
 padding-top: 188px;
 padding-bottom: 188px;
 }
-
-.main{
-    padding-top: 188px;
-    padding-bottom: 188px;
-}
-
 
 .hero-main 
 {
@@ -434,23 +427,18 @@ margin-top: 100px;
 
 display: inline-block;
 margin-bottom: 16px;
-
 }
 
 .logo-footer-accent
 {
 color: #F4F4FD;
 text-transform: uppercase;
-
 }
 
 .footer 
 {
 background-color: var(--secondary-background);
-width: 1440px;
-height: 312px;
 padding-top: 100px;
-padding-bottom: 100px;
 }
 
 .footer-descr
@@ -461,11 +449,7 @@ letter-spacing: 0.02em;
 color: #F4F4FD;
 
 margin-top: 14px;
-margin-right: 864px;
-margin-bottom: 100px;
 }
-
-
 
 /* ================Portfolio============ */
 .portfolio-page
