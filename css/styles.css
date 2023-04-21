@@ -388,7 +388,7 @@ margin-right: 24px;
 border-radius: 0px 0px 4px 4px; 
 }
 
-.team-card: :last-child
+.team-card:last-child
 {
 margin-right: 0;
 }
@@ -493,13 +493,14 @@ flex-wrap:wrap;
 margin-bottom: 120px;
 column-gap: 24px;
 row-gap: 48px;
-width: calc((100% - 48px) / 3);
+
 }
 
 .portfolio-item
 {
 width: 360px;
 outline: 1px solid #E7E9FC;
+width: calc((100% - 48px) / 3);
 
 }
 
