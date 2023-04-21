@@ -231,6 +231,8 @@ display: block;
 border: none;
 min-width: 169px;
 height: 56px;
+margin-right: auto;
+margin-left: auto;
 }
 
 .hero-button
@@ -448,7 +450,10 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #F4F4FD;
 
+display: block;
+width: 264px;
 margin-top: 14px;
+padding-bottom: 100px;
 }
 
 /* ================Portfolio============ */
