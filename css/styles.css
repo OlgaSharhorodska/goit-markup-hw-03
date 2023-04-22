@@ -216,25 +216,8 @@ letter-spacing: 0.02em;
 color: #FFFFFF;
 
 margin-left: 316px;
-margin-right: 316px;
+margight: 316px;
 max-width: 496px; 
-}
-
-button
-{
-padding: 16px 32px;
-gap: 10px;
-background: #4D5AE5;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-border-color: #4d5ae5;
-
-display: block; 
-border: none;
-min-width: 169px;
-height: 56px;
-margin-right: auto;
-margin-left: auto;
 }
 
 .hero-button
@@ -248,6 +231,19 @@ letter-spacing: 0.04em;
 color: #FFFFFF;
 background-color: var(--accent-color);
 
+padding: 16px 32px;
+gap: 10px;
+background: #4D5AE5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+border-color: #4d5ae5;
+
+display: block;
+border: none;
+min-width: 169px;
+    height: 56px;
+    margin-right: auto;
+    margin-left: auto;
 
 margin-top: 48px;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -457,18 +453,14 @@ padding: 96px 0 120px;
 .portfolio
 {
 display: flex;
-justify-content: center;
-margin-top: 96px;
-margin-bottom: 72px;
 gap: 24px;
-
+justify-content: center;
 }
 
 .flex-container
 {
 display: flex;
 flex-wrap:wrap;
-margin-bottom: 120px;
 column-gap: 24px;
 row-gap: 48px;
 }
@@ -512,10 +504,13 @@ border: 1px solid #E7E9FC;
 border-radius: 4px;
 padding: 12px 24px;
 margin-right: 24px;
+
+
+margin-bottom: 72px;
 }
 
 .portfolio-menu:last-child
-{margin-left: 0px;}
+{margin-right: 0px;}
 
 .portfolio-menu:focus,
 .portfolio-menu:hover 
@@ -535,7 +530,6 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 color: var(--primary-text-color);
 
-margin-top: 32px;
 margin-bottom: 8px;
 }
 
@@ -546,6 +540,5 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--secondary-text-color);
 
-margin-bottom: 32px;
 }
 
