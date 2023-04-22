@@ -318,7 +318,7 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--primary-text-color);
 
-margin-bottom: 120px;
+padding-bottom: 120px;
 }
 
 .gallery-name
@@ -423,8 +423,7 @@ color: var(--accent-color);
 text-decoration: none;
 
 display: inline-block;
-margin-bottom: 17px;
-
+margin-bottom: 16px;
 }
 
 .logo-footer-accent
@@ -455,6 +454,7 @@ padding: 96px 0 120px;
 display: flex;
 gap: 24px;
 justify-content: center;
+margin-bottom: 72px
 }
 
 .flex-container
@@ -504,9 +504,6 @@ border: 1px solid #E7E9FC;
 border-radius: 4px;
 padding: 12px 24px;
 margin-right: 24px;
-
-
-margin-bottom: 72px;
 }
 
 .portfolio-menu:last-child
